@@ -15,6 +15,25 @@ body {
 }
 
 @keyframes fade-in {
-    0% { opacity: 0; }
+    5% { opacity: .05; }
     75% { opacity: .75; }
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    background: transparent;
+    box-shadow: 0 2px 4px;
+    opacity: 60%;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-family: "Comfortaa";
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: gray;
+    opacity: 35%;
+    color: white
 }
