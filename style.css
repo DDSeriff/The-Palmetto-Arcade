@@ -1,39 +1,72 @@
 body {
-    font-family: "Comfortaa", Arial;
+    font-family: "Comfortaa";
+    margin: 0;
+    padding: 0;
+}
+
+header {
     display: flex;
-    justify-content: center;
-    margin: 50px;
-    background-image: url(images/Pillars.jpg);
-    background-size: cover;
+    height: 250px;
+    border: 0;
 }
 
-.logo {
-    width: 100px;
-    height: 100px;
-    opacity: 75%;
-    animation: fade-in 4s;
+.brandname {
+    color: white;
+    margin: 20px;
+    font-size: 25px;
 }
 
-@keyframes fade-in {
-    5% { opacity: .05; }
-    75% { opacity: .75; }
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    width: 70%;
+    gap: 25px;
 }
 
 button {
-    width: 100px;
-    height: 35px;
-    background: transparent;
-    box-shadow: 0 2px 4px;
-    opacity: 60%;
-    margin-bottom: 8px;
-    margin-top: 10px;
-    border-radius: 8px;
-    font-family: "Comfortaa";
-    transition-duration: 0.4s;
+    align-self: flex-start;
+    margin: 80px;
+
 }
 
-button:hover {
-    background-color: gray;
-    opacity: 35%;
-    color: white
+.primary {
+    background-image: url(images/Pillars.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.thepalmetto {
+    display: flex;
+    justify-content: center;
+
+}
+
+.treeoflife {
+    height: 200px;
+    width: 200px;
+}
+
+.projects {
+    display: flex;
+    background-color: #c3997a;
+    justify-content: center;
+}
+
+.tiles {
+    display: flex;
+    background-color:#c3997a;
+    justify-content: space-around;
+    align-items: center;
+    height: 225px;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 144px;
+    height: 144px;
+    border-radius: 25px;
+    border: solid 3px #7f5f46;
 }
