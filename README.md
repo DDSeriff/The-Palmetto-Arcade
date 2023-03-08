@@ -6,3 +6,5 @@ If, in some weird world, some other student of the Odin Project comes along this
 Don't give up!
 It's frustrating, I know. It's hard, too. But you're closer to understanding than you think you are. And, at the same time, we're never done learning. I'm under no impressions that what I have here is good. Hell, maybe it's not even mediocre. But it's a start, and you can get a start, too!
 We're all gonna make it.
+
+Credit for the background image goes to my wife. Thank you, and I love you.
