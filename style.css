@@ -97,6 +97,7 @@ button:hover {
     display: flex;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed,
     url(images/invertedpillars.jpg) no-repeat center center fixed;
+    background-size: cover;
     height: 55vh;
     justify-content: flex-start;
     flex-direction: column;
