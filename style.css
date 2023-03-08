@@ -14,6 +14,7 @@ header {
     color: white;
     margin: 20px;
     font-size: 25px;
+    text-shadow: #FFFFFF 1px 0 10px;
 }
 
 ul {
@@ -27,7 +28,26 @@ ul {
 button {
     align-self: flex-start;
     margin: 80px;
+    width: 100px;
+    height: 35px;
+    box-shadow: 0 1px 3px;
+    border-radius: 8px;
+    font-family: "Comfortaa";
+    transition-duration: 0.4s;
+    animation: fade-in 3s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
 
+button:hover {
+    background-color: gray;
+    opacity: 35%;
+    color: white
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    75% { opacity: .75; }
 }
 
 .primary {
@@ -45,6 +65,7 @@ button {
 .treeoflife {
     height: 200px;
     width: 200px;
+    animation: fade-in 4s;
 }
 
 .projects {
@@ -69,6 +90,7 @@ button {
     height: 144px;
     border-radius: 25px;
     border: solid 3px #7f5f46;
+    padding: 25px;
 }
 
 .secondary {
@@ -76,4 +98,25 @@ button {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed,
     url(images/invertedpillars.jpg) no-repeat center center fixed;
     height: 55vh;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.quote {
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.author {
+    color: white;
+    font-size: 26px;
+    align-self: center;
+}
+
+.invertedtree {
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    padding: 30px;
 }
